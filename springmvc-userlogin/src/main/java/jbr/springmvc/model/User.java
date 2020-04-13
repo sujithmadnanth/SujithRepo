@@ -11,15 +11,13 @@ public class User {
   private String email;
   private String address;
   private int phone;
-  private Date date;
-
-  public Date getDate() {
-	return date;
-}
-
-public void setDate(Date date) {
-	this.date = new Date(date.getTime());
-}
+	/*
+	 * private Date date;
+	 * 
+	 * public Date getDate() { return date; }
+	 * 
+	 * public void setDate(Date date) { this.date = new Date(date.getTime()); }
+	 */
 
 public String getUsername() {
     return username;
