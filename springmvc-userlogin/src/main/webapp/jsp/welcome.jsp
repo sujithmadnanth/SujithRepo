@@ -12,6 +12,12 @@
 			<td>Welcome ${firstname}</td>
 		</tr>
 		<tr>
+			<td>Welcome ${email}</td>
+		</tr>
+		<tr>
+			<td>Welcome ${lastname}</td>
+		</tr>
+		<tr>
 		</tr>
 		<tr>
 		</tr>

@@ -94,7 +94,9 @@
    
   
   
-    <!-- Part of Maven - specified version explicitly for compatibility
+  
+    
+        <!-- Part of Maven - specified version explicitly for compatibility
              with the maven-project-info-reports-plugin 3.0.0-->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>

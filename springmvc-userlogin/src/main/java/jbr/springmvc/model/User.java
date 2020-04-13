@@ -1,5 +1,7 @@
 package jbr.springmvc.model;
 
+import java.util.Date;
+
 public class User {
 
   private String username;
@@ -9,8 +11,17 @@ public class User {
   private String email;
   private String address;
   private int phone;
+  private Date date;
 
-  public String getUsername() {
+  public Date getDate() {
+	return date;
+}
+
+public void setDate(Date date) {
+	this.date = new Date(date.getTime());
+}
+
+public String getUsername() {
     return username;
   }
 

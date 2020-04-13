@@ -37,9 +37,19 @@ public class LoginController {
     LoginController lc = new LoginController();
     
     
-    if (null != user) {
+    
+    //if (null != user && null!=user.getEmail() ) {
+    if (null != user || null!=user.getEmail() )  {
       mav = new ModelAndView("welcome");
       mav.addObject("firstname", user.getFirstname());
+      mav.addObject("email",user.getEmail());
+       
+         if((!user.getLastname().equals(null)) && (!user.getLastname().equals(""))) {
+        	 mav.addObject("lastname",user.getLastname());
+         }
+      
+      
+      
     } else {
       mav = new ModelAndView("login");
       mav.addObject("message", "Username or Password is wrong!!");

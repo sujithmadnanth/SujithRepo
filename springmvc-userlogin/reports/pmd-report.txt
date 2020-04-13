@@ -1,0 +1,252 @@
+src/main/java/jbr/springmvc/controller/LoginController.java:18:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/controller/LoginController.java:18:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/controller/LoginController.java:18:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:18:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:20:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/jbr/springmvc/controller/LoginController.java:20:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/jbr/springmvc/controller/LoginController.java:21:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/controller/LoginController.java:21:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/controller/LoginController.java:21:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the userService field if you want a default access modifier
+src/main/java/jbr/springmvc/controller/LoginController.java:21:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the userService field if you want a default access modifier
+src/main/java/jbr/springmvc/controller/LoginController.java:21:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:21:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:24:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:24:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:24:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:24:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:25:	AvoidDuplicateLiterals: The String literal "login" appears 4 times in this file; the first occurrence is on line 25
+src/main/java/jbr/springmvc/controller/LoginController.java:25:	AvoidDuplicateLiterals: The String literal "login" appears 4 times in this file; the first occurrence is on line 25
+src/main/java/jbr/springmvc/controller/LoginController.java:25:	LocalVariableCouldBeFinal: Local variable 'mav' could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:25:	LocalVariableCouldBeFinal: Local variable 'mav' could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:32:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:32:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/LoginController.java:32:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:32:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:32:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:32:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:33:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:33:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mav' (lines '34'-'43').
+src/main/java/jbr/springmvc/controller/LoginController.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mav' (lines '34'-'43').
+src/main/java/jbr/springmvc/controller/LoginController.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mav' (lines '34'-'54').
+src/main/java/jbr/springmvc/controller/LoginController.java:34:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mav' (lines '34'-'54').
+src/main/java/jbr/springmvc/controller/LoginController.java:36:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:36:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'lc' (lines '37'-'59').
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'lc' (lines '37'-'59').
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	LocalVariableCouldBeFinal: Local variable 'lc' could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	LocalVariableCouldBeFinal: Local variable 'lc' could be declared final
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	PrematureDeclaration: Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	ShortVariable: Avoid variables with short names like lc
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	ShortVariable: Avoid variables with short names like lc
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	UnusedLocalVariable: Avoid unused local variables such as 'lc'.
+src/main/java/jbr/springmvc/controller/LoginController.java:37:	UnusedLocalVariable: Avoid unused local variables such as 'lc'.
+src/main/java/jbr/springmvc/controller/LoginController.java:42:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/jbr/springmvc/controller/LoginController.java:42:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/jbr/springmvc/controller/LoginController.java:42:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/jbr/springmvc/controller/LoginController.java:42:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	EqualsNull: Avoid using equals() to compare against null
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	EqualsNull: Avoid using equals() to compare against null
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	UselessParentheses: Useless parentheses.
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	UselessParentheses: Useless parentheses.
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	UselessParentheses: Useless parentheses.
+src/main/java/jbr/springmvc/controller/LoginController.java:47:	UselessParentheses: Useless parentheses.
+src/main/java/jbr/springmvc/controller/RegistrationController.java:17:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/controller/RegistrationController.java:17:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/controller/RegistrationController.java:17:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:17:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/controller/RegistrationController.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/controller/RegistrationController.java:19:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:19:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:22:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:22:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:22:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:22:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:23:	LocalVariableCouldBeFinal: Local variable 'mav' could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:23:	LocalVariableCouldBeFinal: Local variable 'mav' could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/controller/RegistrationController.java:30:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:30:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:30:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:30:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:31:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/jbr/springmvc/controller/RegistrationController.java:31:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDao.java:6:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/dao/UserDao.java:6:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/dao/UserDao.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDao.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDao.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDao.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:16:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:16:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:18:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:18:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:19:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the datasource field if you want a default access modifier
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:19:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the datasource field if you want a default access modifier
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:19:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:19:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:21:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:21:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:22:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:22:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the jdbcTemplate field if you want a default access modifier
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:22:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the jdbcTemplate field if you want a default access modifier
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:22:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:22:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:24:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:24:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:24:	MissingOverride: The method 'register(User)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:24:	MissingOverride: The method 'register(User)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:25:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:25:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:31:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:31:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:31:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:31:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:31:	MissingOverride: The method 'validateUser(Login)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:31:	MissingOverride: The method 'validateUser(Login)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:32:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:32:	LocalVariableCouldBeFinal: Local variable 'sql' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:34:	LocalVariableCouldBeFinal: Local variable 'users' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:34:	LocalVariableCouldBeFinal: Local variable 'users' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:36:	UseCollectionIsEmpty: Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:36:	UseCollectionIsEmpty: Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:41:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:41:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:41:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:41:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	MethodArgumentCouldBeFinal: Parameter 'arg1' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	MethodArgumentCouldBeFinal: Parameter 'arg1' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	MethodArgumentCouldBeFinal: Parameter 'rs' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	MethodArgumentCouldBeFinal: Parameter 'rs' is not assigned and could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	MissingOverride: The method 'mapRow(ResultSet, int)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	MissingOverride: The method 'mapRow(ResultSet, int)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	ShortVariable: Avoid variables with short names like rs
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:43:	ShortVariable: Avoid variables with short names like rs
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:44:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/jbr/springmvc/dao/UserDaoImpl.java:44:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/jbr/springmvc/model/Login.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/model/Login.java:3:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/model/Login.java:3:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/model/Login.java:3:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/model/Login.java:3:	DataClass: The class 'Login' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+src/main/java/jbr/springmvc/model/Login.java:3:	DataClass: The class 'Login' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+src/main/java/jbr/springmvc/model/Login.java:5:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/Login.java:5:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/Login.java:6:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/Login.java:6:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/Login.java:12:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/Login.java:12:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/Login.java:20:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/Login.java:20:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:5:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/model/User.java:5:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/model/User.java:5:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/model/User.java:5:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/model/User.java:5:	DataClass: The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=16)
+src/main/java/jbr/springmvc/model/User.java:5:	DataClass: The class 'User' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=16, WMC=16)
+src/main/java/jbr/springmvc/model/User.java:5:	ShortClassName: Avoid short class names like User
+src/main/java/jbr/springmvc/model/User.java:5:	ShortClassName: Avoid short class names like User
+src/main/java/jbr/springmvc/model/User.java:7:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:7:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:8:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:8:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:9:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:9:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:10:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:10:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:11:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:11:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:12:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:12:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:13:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:13:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:14:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:14:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/model/User.java:20:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:20:	MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:28:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:28:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:29:	SystemPrintln: System.out.println is used
+src/main/java/jbr/springmvc/model/User.java:29:	SystemPrintln: System.out.println is used
+src/main/java/jbr/springmvc/model/User.java:37:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:37:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:45:	MethodArgumentCouldBeFinal: Parameter 'firstname' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:45:	MethodArgumentCouldBeFinal: Parameter 'firstname' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:46:	SystemPrintln: System.out.println is used
+src/main/java/jbr/springmvc/model/User.java:46:	SystemPrintln: System.out.println is used
+src/main/java/jbr/springmvc/model/User.java:54:	MethodArgumentCouldBeFinal: Parameter 'lastname' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:54:	MethodArgumentCouldBeFinal: Parameter 'lastname' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:55:	SystemPrintln: System.out.println is used
+src/main/java/jbr/springmvc/model/User.java:55:	SystemPrintln: System.out.println is used
+src/main/java/jbr/springmvc/model/User.java:63:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:63:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:71:	MethodArgumentCouldBeFinal: Parameter 'address' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:71:	MethodArgumentCouldBeFinal: Parameter 'address' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:79:	MethodArgumentCouldBeFinal: Parameter 'phone' is not assigned and could be declared final
+src/main/java/jbr/springmvc/model/User.java:79:	MethodArgumentCouldBeFinal: Parameter 'phone' is not assigned and could be declared final
+src/main/java/jbr/springmvc/service/UserService.java:6:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/service/UserService.java:6:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/service/UserService.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserService.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserService.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserService.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:9:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:9:	CommentRequired: Class comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:12:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:12:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:12:	CommentRequired: Field comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:14:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:14:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:14:	MissingOverride: The method 'register(User)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:14:	MissingOverride: The method 'register(User)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:18:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:18:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:18:	MissingOverride: The method 'validateUser(Login)' is missing an @Override annotation.
+src/main/java/jbr/springmvc/service/UserServiceImpl.java:18:	MissingOverride: The method 'validateUser(Login)' is missing an @Override annotation.
+src/test/java/jbr/springmvc/UserServiceTest.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/jbr/springmvc/UserServiceTest.java:16:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/jbr/springmvc/UserServiceTest.java:16:	CommentRequired: Class comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:16:	CommentRequired: Class comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/jbr/springmvc/UserServiceTest.java:19:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/jbr/springmvc/UserServiceTest.java:19:	CommentRequired: Field comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:19:	CommentRequired: Field comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:22:	CommentRequired: Public method and constructor comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:22:	CommentRequired: Public method and constructor comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:23:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:23:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:32:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:32:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:37:	CommentRequired: Public method and constructor comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:37:	CommentRequired: Public method and constructor comments are required
+src/test/java/jbr/springmvc/UserServiceTest.java:38:	LocalVariableCouldBeFinal: Local variable 'login' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:38:	LocalVariableCouldBeFinal: Local variable 'login' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:42:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:42:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/test/java/jbr/springmvc/UserServiceTest.java:43:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/test/java/jbr/springmvc/UserServiceTest.java:43:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)

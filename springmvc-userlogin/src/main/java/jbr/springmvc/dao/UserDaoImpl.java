@@ -22,10 +22,10 @@ public class UserDaoImpl implements UserDao {
   JdbcTemplate jdbcTemplate;
 
   public int register(User user) {
-    String sql = "insert into users values(?,?,?,?,?,?,?)";
+    String sql = "insert into users values(?,?,?,?,?,?,?,?)";
 
     return jdbcTemplate.update(sql, new Object[] { user.getUsername(), user.getPassword(), user.getFirstname(),
-        user.getLastname(), user.getEmail(), user.getAddress(), user.getPhone() });
+        user.getLastname(), user.getEmail(), user.getAddress(), user.getPhone(),user.getDate() });
   }
 
   public User validateUser(Login login) {
@@ -50,6 +50,7 @@ class UserMapper implements RowMapper<User> {
     user.setEmail(rs.getString("email"));
     user.setAddress(rs.getString("address"));
     user.setPhone(rs.getInt("phone"));
+    user.setDate(rs.getDate("date"));
 
     return user;
   }
